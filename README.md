@@ -15,10 +15,5 @@ El nombre del mini proyecto es **FlyAway.com**.
 - Recibir información en diferentes tipos de input.  
 - Hacer el submit para mandar la información a algún lado.
 
-## Cómo usar el Repo
-Existen dos branches: `main` y `begin`.   
-En `main`, encontrarás el código del proyecto como quedará al final del curso. Si gustas, puedes descargarlo o clonarlo desde la terminal usando Git, y construir sobre él o modificar todo lo que quieras.  
-En `begin`, encontrarás una versión del proyecto inicial, antes de haber desarrollado cualquier cosa. Puedes descargar o clonar esta branch al inicio del curso para programar a manera de _follow allong_, o puedes crear un proyecto de React desde cero por tu cuenta. (Esto se hace con el commando `npx create-react-app nombreapp`).  
-
 
 # cursoHTMLCSS
