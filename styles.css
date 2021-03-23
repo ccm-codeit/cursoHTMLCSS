@@ -69,4 +69,8 @@ button {
   width: 300px;
   margin: 0 auto;
 }
-
+select {
+  height: 30px;
+  border: 2px solid rgb(36, 177, 219);
+  border-radius: 5px;
+}
