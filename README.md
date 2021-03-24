@@ -11,9 +11,12 @@ El nombre del mini proyecto es **FlyAway.com**.
 - ¿Para qué es CSS?
 - Archivos básicos en un proyecto Web.
 - Declaración de etiquetas y atributos de etiquetas HTML.  
-- Selectores de CSS.  
+- Selectores de CSS: clases versus etiquetas.  
 - Recibir información en diferentes tipos de input.  
 - Hacer el submit para mandar la información a algún lado.
 
+### Dependencias que recomendamos:   
+- Uso de Visual Studio Code
+- La extensión "Live Share"
 
 # cursoHTMLCSS
