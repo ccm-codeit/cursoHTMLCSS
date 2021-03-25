@@ -4,30 +4,24 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
 .main-container {
+  background-color: white;
   display: flex;
   max-width: 1024px;
   margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.left-section {
-  display: flex;
-  background-color: rgb(255, 255, 255);
+.left-container {
   width: 66%;
+  display: flex;
   flex-direction: column;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding: 20px;
 }
 
-.right-section {
-  display: flex;
+.right-container {
   width: 34%;
-
+  display: flex;
   flex-direction: column;
 }
 
@@ -39,38 +33,34 @@ form {
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
 }
 
 .title {
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 15px;
-  color: rgb(36, 177, 219);
+  font-size: 35px;
+  margin-bottom: 30px;
 }
 
 .subtitle {
   font-size: 25px;
   margin-bottom: 10px;
-  color: orange;
 }
 
 input {
-  height: 30px;
-  border: 2px solid rgb(36, 177, 219);
-  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(0, 204, 255);
+  border-radius: 10px;
+}
+
+select {
+  height: 40px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(0, 204, 255);
 }
 
 button {
-  background-color: orange;
-  height: 40px;
-  border: 1px solid transparent;
-  border-radius: 7px;
-  width: 300px;
-  margin: 0 auto;
-}
-select {
-  height: 30px;
-  border: 2px solid rgb(36, 177, 219);
-  border-radius: 5px;
+  height: 50px;
+  color: white;
+  background-color: rgb(21, 100, 190);
+  border-radius: 10px;
 }
