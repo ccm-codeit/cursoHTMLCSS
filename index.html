@@ -3,72 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>FlyAway.com</title>
+   <link rel="stylesheet" href="./styles.css">
+    <title>Book my vacation</title>
 </head>
 <body>
     <main class="main-container">
-        <section class="left-section" name="Formulario">
+        <section class="left-container"name="Form">
             <p class="title">A new place is waiting to be discovered</p>
+
             <form>
-                <p class="subtitle">Flight Information</p>
+                <p class="subtitle">Flight information</p>
 
-                <label >
+                <label>
                     <span>Country</span>
-                        <select name="country" >
-                            <option>México</option>
-                            <option>USA</option>
-                            <option>Spain</option>
-                            <option>Japan</option>
-                            <option>Colombia</option>
-                        </select>
+                    <select name="country">
+                        <option>Mexico</option>
+                        <option>Japon</option>
+                        <option>Chile</option>
+                        <option>Colombia</option>
+                    </select>
                 </label>
-
 
                 <label>
                     <span>City</span>
-                    <input type="text" name="city" required/>
+                    <input type="text" name="city"/>
                 </label>
 
                 <label>
                     <span>Depart when?</span>
-                    <input type="date" name="depart-when" required/>
+                    <input type="date"/>
                 </label>
                 <label>
-                    <span>Time of departure</span>
-                    <input type="time" name="depart-time" required/>
+                    <span>Depart at?</span>
+                    <input type="time"/>
                 </label>
-                <label>
-                    <span>Return when?</span>
-                    <input type="date" name="return-when" required/>
-                </label>
-                <label>
-                    <span>Time of return</span>
-                    <input type="time" name="return-time" required/>
-                </label>
-
                 <p class="subtitle">Traveler Information</p>
                 <label>
                     <span>Full name</span>
-                    <input type="text" name="fullname" 
-                    required autocomplete="name"/>
+                    <input type="text" name="fullname"
+                    required/>
                 </label>
                 <label>
                     <span>Email</span>
-                    <input type="email" name="email" 
-                    required autocomplete="email"/>
+                    <input type="email" name="email"/>
                 </label>
                 <label>
                     <span>Phone</span>
-                    <input type="tel" name="phone" required
-                    autocomplete="tel"/>
+                    <input type="tel" name="phone"/>
                 </label>
-
-                <button type="submit">Book my flight!</button>
+                <button type="submit">Book My Flight</button>
             </form>
         </section>
 
-        <section  class="right-section"  name="Fotos">
+        <section name="Images" class="right-container">
             <img src="./images/beachOne.jpg"/>
             <img src="./images/beachTwo.jpg"/>
             <img src="./images/beachThree.jpg"/>
